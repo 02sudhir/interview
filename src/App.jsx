@@ -31,16 +31,16 @@ const App = () => {
         type: 'folder',
         name: 'Subfolder 1',
         children: [
-          { type: 'file', name: 'File 1-1.txt' },
-          { type: 'file', name: 'File 1-2.txt' },
+          { type: 'file', name: 'File 1.txt' },
+          { type: 'file', name: 'File 1.txt' },
         ],
       },
       {
         type: 'folder',
         name: 'Subfolder 2',
         children: [
-          { type: 'file', name: 'File 2-1.txt' },
-          { type: 'folder', name: 'Subfolder 2-1', children: [{ type: 'file', name: 'File 2-1-1.txt' }] },
+          { type: 'file', name: 'File 2.txt' },
+          { type: 'folder', name: 'Subfolder 2', children: [{ type: 'file', name: 'File 2.2.txt' }] },
         ],
       },
     ],
